@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "Project #3 of freeCodeCamp's APIs and Microservices Projects",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fobabs/url-shortener-microservice.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "FOBABS",
+  "license": "ISC",
+  "engines": {
+    "node": "12.13.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "nanoid": "github:ai/nanoid"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
